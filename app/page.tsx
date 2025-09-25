@@ -6,7 +6,7 @@ import { FaFirefox, FaEdge, FaHeart } from "react-icons/fa";
 export default function Home() {
   return (
     <>
-      <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-20 gap-16 sm:p-20">
+      <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-4 gap-16 sm:p-20">
         <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
           <div className="flex flex-col space-y-4  justify-center items-center w-full">
             <h1 className="text-4xl text-center sm:text-5xl font-bold">
@@ -26,7 +26,7 @@ export default function Home() {
                   "https://addons.mozilla.org/en-US/firefox/addon/filled-autofill-google-forms/"
                 }
               >
-                <button className="flex gap-2 w-full items-center border-2 px-4 py-2 rounded-2xl bg-black hover:bg-neutral-700 cursor-pointer transition">
+                <button className="flex gap-2 w-full items-center border-2 px-4 py-2 rounded-2xl hover:bg-neutral-100 dark:hover:bg-neutral-700 cursor-pointer transition">
                   <FaFirefox />
                   <span className="hidden sm:inline">Filled for Firefox</span>
                   <span className="inline sm:hidden">Firefox</span>
@@ -37,7 +37,7 @@ export default function Home() {
                   "https://microsoftedge.microsoft.com/addons/detail/filled-autofill-google-/denpfdcbegfpjleghmceadmklfgfcjep"
                 }
               >
-                <button className=" flex gap-2 w-full items-center border-2 px-4 py-2 rounded-2xl bg-black hover:bg-neutral-700 cursor-pointer transition">
+                <button className=" flex gap-2 w-full items-center border-2 px-4 py-2 rounded-2xl hover:bg-neutral-100 dark:hover:bg-neutral-700 cursor-pointer transition">
                   <FaEdge />
                   <span className="hidden sm:inline">Filled for Edge </span>
                   <span className="inline sm:hidden">Edge</span>
@@ -54,8 +54,8 @@ export default function Home() {
               alt="Screenshot of the extension"
             />
           </div>
-          <div className="text-base sm:text-lg max-w-2xl space-y-4 text-neutral-400 text-pretty text-justify">
-            <h6 className="text-lg sm:text-xl text-neutral-200">
+          <div className="text-base sm:text-lg max-w-2xl space-y-4 text-neutral-600 dark:text-neutral-400 text-pretty text-justify">
+            <h6 className="text-lg sm:text-xl dark:text-neutral-200">
               What is Filled?
             </h6>
             <p>
