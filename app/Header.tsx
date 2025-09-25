@@ -24,7 +24,7 @@ export default function Header() {
           "https://microsoftedge.microsoft.com/addons/detail/filled-autofill-google-/denpfdcbegfpjleghmceadmklfgfcjep"
         }
       >
-        <button className="flex gap-2 text-sm md:text-base items-center border-2 px-2 md:px-4 py-1 md:py-2 rounded-full bg-white hover:bg-neutral-100 dark:hover:bg-neutral-700 cursor-pointer transition">
+        <button className="flex gap-2 text-sm md:text-base items-center border-2 px-2 md:px-4 py-1 md:py-2 rounded-full bg-white dark:bg-neutral-800 hover:bg-neutral-100 dark:hover:bg-neutral-700 cursor-pointer transition">
           <SiKofi />
           Support me on Ko-Fi
         </button>
