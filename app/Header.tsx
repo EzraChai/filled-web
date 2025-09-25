@@ -11,6 +11,7 @@ export default function Header() {
       <div className="inline-flex gap-2 items-center">
         <Image
           className="border-2 border-white rounded-full"
+          priority
           src={Logo}
           alt="Logo"
           width={48}
