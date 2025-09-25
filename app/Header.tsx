@@ -6,7 +6,7 @@ import Logo from "./logo.png";
 export default function Header() {
   return (
     <header
-      className={`fixed flex px-4 items-center justify-between top-6 left-0 right-0 max-w-3xl rounded-full w-full mx-auto p-4 h-16 backdrop-blur-lg bg-neutral-200/30 dark:bg-neutral-600/20 text-center z-10 `}
+      className={`fixed shadow-lg flex px-4 items-center justify-between top-6 left-0 right-0 max-w-3xl rounded-full w-full mx-auto p-4 h-16 backdrop-blur-lg bg-neutral-200/30 dark:bg-neutral-600/20 text-center z-10 `}
     >
       <div className="inline-flex gap-2 items-center">
         <Image
@@ -19,18 +19,16 @@ export default function Header() {
         />
         <h1 className="font-black md:text-xl">Filled</h1>
       </div>
-      <div className="">
-        <Link
-          href={
-            "https://microsoftedge.microsoft.com/addons/detail/filled-autofill-google-/denpfdcbegfpjleghmceadmklfgfcjep"
-          }
-        >
-          <button className="flex gap-2 text-sm md:text-base items-center border-2 px-2 md:px-4 py-1 md:py-2 rounded-full hover:bg-neutral-100 dark:hover:bg-neutral-700 cursor-pointer transition">
-            <SiKofi />
-            Support me on Ko-Fi
-          </button>
-        </Link>
-      </div>
+      <Link
+        href={
+          "https://microsoftedge.microsoft.com/addons/detail/filled-autofill-google-/denpfdcbegfpjleghmceadmklfgfcjep"
+        }
+      >
+        <button className="flex gap-2 text-sm md:text-base items-center border-2 px-2 md:px-4 py-1 md:py-2 rounded-full bg-white hover:bg-neutral-100 dark:hover:bg-neutral-700 cursor-pointer transition">
+          <SiKofi />
+          Support me on Ko-Fi
+        </button>
+      </Link>
     </header>
   );
 }
