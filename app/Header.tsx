@@ -6,9 +6,9 @@ import Logo from "./logo.png";
 export default function Header() {
   return (
     <header
-      className={`fixed top-6 left-0 right-0 max-w-3xl mx-auto px-4 w-full z-10 `}
+      className={`fixed top-6 left-0 right-0  max-w-3xl mx-auto px-4 w-full z-10 font-sans`}
     >
-      <div className=" shadow-md flex px-4 items-center justify-between rounded-full mx-auto  p-4 h-16 backdrop-blur-lg bg-neutral-200/30 dark:bg-neutral-600/20 ">
+      <div className="shadow-lg flex px-4 items-center justify-between rounded-full mx-auto  p-4 h-16 backdrop-blur-lg bg-neutral-200/30 dark:bg-neutral-600/20 ">
         <div className="inline-flex gap-2 items-center">
           <Image
             placeholder="blur"
