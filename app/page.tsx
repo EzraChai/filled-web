@@ -54,8 +54,8 @@ export default function Home() {
               alt="Screenshot of the extension"
             />
           </div>
-          <div className="text-base sm:text-lg max-w-2xl space-y-4 text-neutral-600 dark:text-neutral-400 text-pretty text-justify">
-            <h6 className="text-lg sm:text-xl dark:text-neutral-200">
+          <div className="text-base sm:text-lg max-w-2xl space-y-4 text-neutral-500 dark:text-neutral-400 text-pretty text-justify">
+            <h6 className="text-lg sm:text-xl text-neutral-700 dark:text-neutral-200">
               What is Filled?
             </h6>
             <p>
