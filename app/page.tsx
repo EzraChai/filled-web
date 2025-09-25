@@ -60,7 +60,7 @@ export default function Home() {
           </div>
         </main>
       </div>
-      <footer className="flex items-baseline justify-center text-sm gap-1 text-neutral-500">
+      <footer className="mb-4 flex items-baseline justify-center text-sm gap-1 text-neutral-500">
         Made with <FaHeart color="red" /> by{" "}
         <Link
           className="text-blue-300 hover:underline"
