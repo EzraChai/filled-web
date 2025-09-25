@@ -12,9 +12,9 @@ export default function Home() {
             <h1 className="text-5xl font-bold">
               Filled - Autofill Google Forms
             </h1>
-            <h6>Autofill</h6>
-            <div className=" border-2 text-sm px-2 rounded-xl font-medium">
-              #Built for <span className="text-blue-300">Productivity</span>
+            <h6>Fill the Google Form fields only once in your lifetime.</h6>
+            <div className="  text-sm px-2 rounded-xl text-neutral-800 bg-neutral-100 font-medium">
+              #Built for <span className="text-blue-700">Productivity</span>
             </div>
             <div className="flex justify-center gap-4 mt-4">
               <Link
